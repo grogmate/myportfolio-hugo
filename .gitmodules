@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:grogmate/grogmate.github.io.git
+	branch = master
