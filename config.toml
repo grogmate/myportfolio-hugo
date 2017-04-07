@@ -1,0 +1,246 @@
+baseurl = "https://syafiqlah.com/"
+title = "Syafiq Lah"
+languageCode = 'en-US'
+theme = "hugo-elate-theme"
+googleAnalytics = "UA-93509045-1"
+disableHugoGeneratorInject = true
+
+[params]
+  
+  custom_css = ["css/custom1.css"]
+  googleAnalytics = "UA-93509045-1"
+  disableHugoGeneratorInject = true
+
+
+  # Meta
+  author = "Syafiq"
+  description = "My portfolio"
+  email = "dis.syafiq+gig@gmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "syafiq"
+    home = "Home"
+    work = "Portfolio"
+    testimonials = "Testimonials"
+    services = "Skills"
+    about = "Profile"
+    contact = "Contact"
+
+  # Hero section
+  [params.hero]
+    title = "Hello! I'm Syafiq, and I'm a web developer"
+    subtitle = "HTML   |   CSS   |   JavaScript   |   Optimization"
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+    enable = false
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "Throw me some ideas so that I'll get a general idea on what you want your company to represent. Let's plan the project together!"
+    url = "#fh5co-contact"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "I will take your ideas and make it into a finished website. I'll go grab my coffee now. It does takes time."
+    url = "#fh5co-contact"
+    button = "Contact Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "A few more revisions (or not), and your website is finished. I'll do some onsite optimizing too so you'll have a faster loading website."
+    url = "#fh5co-contact"
+    button = "Start now"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = ""
+
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Portfolio"
+    description = "My past work"
+    footertext = 'Coming soon'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Website"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Website"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Website"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "What my clients are saying"
+    footertext = 'Coming soon'
+
+    [[params.testimonials.item]]
+      quote = "Testimony 1"
+      person = 'Person 1, Position @ <a href="https://syafiqlah.com/" target="_blank">syafiqlah.com</a> <span class="subtext">Company/Division</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "Testimony 2"
+      person = 'Person 2, Position @ <a href="https://syafiqlah.com/" target="_blank">syafiqlah.com</a> <span class="subtext">Company/Division</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "Testimony 3"
+      person = 'Person 3, Position @ <a href="https://syafiqlah.com/" target="_blank">syafiqlah.com</a> <span class="subtext">Company/Division</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+   # Services section
+  [params.services]
+    enable = true
+    title = "Skills"
+    description = "Skills I use to develop websites"
+
+    [[params.services.item]]
+      title = "HTML"
+      description = "I use HTML to put your contents on your website."
+      icon = "icon-html5"
+
+    [[params.services.item]]
+      title = "CSS"
+      description = "This is where I put style into your website."
+      icon = "icon-css3"
+
+    [[params.services.item]]
+      title = "JavaScript"
+      description = "Various automation and animation!"
+      icon = "icon-layers2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "A perfect platform to sell your merchandise."      
+      icon = "icon-shopping-cart"
+
+      [[params.services.item]]
+      title = "Bootstrap"
+      description = "CSS boilerplate that would be a foundation for a responsive and mobile-ready design." 
+      icon = "icon-code"
+
+      [[params.services.item]]
+      title = "jQuery"
+      description = "A JavaScript library to help make the website more interactive." 
+      icon = "icon-spinner"
+
+#      [[params.services.item]]
+ #     title = "Server OS"
+  #    description = "CLI on Debian & CentOS variant for a stable server." 
+    #  icon = "icon-terminal"
+
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About Me"
+    description = ""
+
+    [[params.about.item]]
+      name = "Syafiq Lah"
+      position = "Web Developer"
+      description = "I love all things design, typography and music. If I'm not busy tinkering something, I usually can be found reading books while enjoying a cup of black coffee."
+      img = "me.jpg"
+      alt = "face"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/syafiq.lah.1420"],
+        ["icon-code", "https://www.freecodecamp.com/grogmate"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Get in touch"
+    description = "Ready to start your own website? Let's talk."
+    map = false
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Kuala Lumpur, Malaysia"],
+        ["icon-envelope", "Please email me through the form"],
+	["icon-skype", "grogmate"],
+        ["icon-globe", '<a href="https://syafiqlah.com/" target="_blank">syafiqlah.com</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '<br>&copy; syafiqlah.com | All Rights Reserved'
+
+  [params.social]
+    github = "hello"
